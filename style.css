@@ -1,0 +1,50 @@
+html,
+body {
+    height: 80%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3498db;
+    background-size: cover;
+    height: 100%;
+
+}
+
+main {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #ecf0f1;
+    text-shadow: 4px 3px #7f8c8d;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.box h2,
+.box h3 {
+    font-style: italic;
+}
+
+.trigger {
+    display: inline;
+    padding: 5px 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #ecf0f1;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tweet {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20pox;
+    color: #ecf0f1;
+}
